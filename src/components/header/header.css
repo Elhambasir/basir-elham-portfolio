@@ -1,0 +1,45 @@
+.header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),
+   rgba(0, 0, 0, 0.4)), url(../../assets/images/header-background-image.jpg) center/cover fixed no-repeat;
+}
+
+.header > .container {
+  min-height: 100vh;
+  flex: 1;
+}
+
+.header-title {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 1.8rem;
+  max-width: 600px;
+}
+
+.header .btn-groups .btn-item:first-child {
+  border-color: var(--brown-color);
+}
+
+.header .btn-groups .btn-item:last-child {
+  border-color: var(--dark-color);
+}
+
+@media screen and (min-width: 768px) {
+  .header-title {
+    font-size: 3rem;
+  }
+
+  .header .btn-groups .btn-item {
+    font-size: 2.2rem;
+    padding: 1.4rem 3.4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-title {
+    font-size: 48px;
+  }
+}
+
