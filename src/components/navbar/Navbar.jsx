@@ -13,7 +13,8 @@ function Navbar() {
         <div className="navbar-content">
           <div className="brand-and-toggler flex-between">
             <Link to="/" className="navbar-brand text-u
-              ppercase fw-7 text-white ls-2 fs-22">Elham</Link>
+              ppercase fw-7 text-white ls-2 fs-22">Elham
+              </Link>
             <button type="button"
               className="navbar-open-btn text-white"
               onClick={() => setNavToggle(!navToggle)}

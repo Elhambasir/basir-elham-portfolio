@@ -61,7 +61,7 @@ a {
   padding: 0 2rem;
 } 
 
-.section p {
+.section-p {
   padding: 10rem 0;
 }
 
@@ -815,4 +815,24 @@ a {
   -moz-transition: none !important;
   -ms-transition: none !important;
   -o-transition: none !important;
+}
+
+/* // section-title */
+
+.section-title {
+  text-align: center;
+  padding-bottom: 3.8rem;
+}
+
+.section-title h3 {
+  font-size: 2.6rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-title h3 {
+    font-size: 3.6rem;
+  }
 }
