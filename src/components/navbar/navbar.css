@@ -1,9 +1,9 @@
-.navbar {
+.custom-navbar {
   width: 100%;
   padding: 3rem 0;
 }
 
-.navbar-collapse {
+.custom-navbar-collapse {
   position: fixed;
   top: 0;
   right: 0;
@@ -45,15 +45,15 @@
   top: 2rem;
 }
 
-.nav-item {
+.custom-nav-item {
   margin-bottom: 2rem;
 }
 
-.nav-link {
+.custom-nav-link {
   position: relative;
 }
 
-.nav-link::after {
+.custom-nav-link::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -74,18 +74,18 @@
   -o-transition: var(--transition);
 }
 
-.nav-link:hover::after {
+.custom-nav-link:hover::after {
   opacity: 1;
 }
 
 @media screen and (min-width:500px) {
-  .navbar-collapse {
+  .custom-navbar-collapse {
     width: 320px !important;
   }
 }
 
 @media screen and (min-width:992px) {
-  .navbar-collapse {
+  .custom-navbar-collapse {
     position: relative;
     width: 100%;
     background-color: transparent;
@@ -104,18 +104,18 @@
     display: none;
 }
 
-.navbar-nav {
+.custom-navbar-nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.nav-item {
+.custom-nav-item {
   margin: 0;
   margin-left: 3.6rem;
 }
 
-.nav-link {
+.custom-nav-link {
   font-size: 1.8rem;
   font-weight: 500;
   transition: var(--transition);
@@ -125,11 +125,11 @@
   -o-transition: var(--transition);
 }
 
-.nav-link:hover {
+.custom-nav-link:hover {
   color: var(--brown-color);
 }
 
-.nav-link::after {
+.custom-nav-link::after {
   display: none;
 }
 

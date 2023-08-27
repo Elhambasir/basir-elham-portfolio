@@ -11,6 +11,24 @@
 .newsletter-form {
   max-width: 460px;
 }
+
+.newsletter-form textarea{
+  width: 100%;
+  height: 100px;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  margin-bottom: 2.6rem;
+  border: 1px solid var(--white-color);
+  color:var(--white-color);
+  background: transparent;
+  font-weight: 200;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+}
 .newsletter-form input {
   width: 100%;
   height: 56px;
@@ -28,6 +46,7 @@
   -ms-border-radius: 35px;
   -o-border-radius: 35px;
 }
+.newsletter-form textarea:focus,
 .newsletter-form input:focus {
   outline: none;
 }

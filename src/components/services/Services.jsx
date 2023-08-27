@@ -4,7 +4,7 @@ import './services.css';
 
 export const Services = () => {
   return (
-    <div className="services section-p">
+    <div className="services section-p" id='services'>
       <div className="container">
         <div className="services-content">
           <div className="section-title">
@@ -19,11 +19,11 @@ export const Services = () => {
           <div className="services-list grid">
             {
               services.map((service, index) => {
-                const { image, title, description } = service;
+                const { icon, title, description } = service;
                 return (
                   <div key={index} className="services-item text-center flex-column">
                     <div className="services-item-img">
-                      <img src={image} alt="img" className="mx-auto" />
+                      <img src={icon} alt="img" className="mx-auto"/>
                     </div>
                     <div className="services-item-title">
                       <h4 className="text-brown">{title}</h4>

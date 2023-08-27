@@ -1,54 +1,90 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa';
-import './navbar.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "./navbar.css";
 
 function Navbar() {
   const [navToggle, setNavToggle] = useState(false);
   const closeNavbar = () => setNavToggle(false);
 
   return (
-    <div className="navbar">
+    <div className="custom-navbar">
       <div className="container">
         <div className="navbar-content">
           <div className="brand-and-toggler flex-between">
-            <Link to="/" className="navbar-brand text-u
-              ppercase fw-7 text-white ls-2 fs-22">Elham
-              </Link>
-            <button type="button"
+            <a
+              href="#about"
+              className="navbar-brand text-u
+              ppercase fw-7 text-white ls-2 fs-22"
+            >
+              BASIR ELHAM
+            </a>
+            <button
+              type="button"
               className="navbar-open-btn text-white"
               onClick={() => setNavToggle(!navToggle)}
             >
               <FaBars size={30} />
             </button>
-            <div className={navToggle ? "navbar-collapse show-navbar-collapse" : 
-            "navbar-collapse"}>
-              <button type="button"
+            <div
+              className={
+                navToggle
+                  ? "custom-navbar-collapse show-navbar-collapse"
+                  : "custom-navbar-collapse"
+              }
+            >
+              <button
+                type="button"
                 className="navbar-close-btn text-white"
                 onClick={closeNavbar}
               >
                 <FaTimes size={30} />
               </button>
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <Link to="/" className="nav-link text-white 
-                    ls-1 text-uppercase fw-6 fs-20">Home</Link>
+              <ul className="custom-navbar-nav">
+                <li className="custom-nav-item">
+                  <a
+                    href="#header"
+                    className="custom-nav-link text-white 
+                    ls-1 text-uppercase fw-6 fs-20"
+                  >
+                    Home
+                  </a>
                 </li>
-                <li className="nav-item">
-                  <Link to="/" className="nav-link text-white 
-                     ls-1 text-uppercase fw-6 fs-20">Services</Link>
+                <li className="custom-nav-item">
+                  <a
+                    href="#services"
+                    className="custom-nav-link text-white 
+                     ls-1 text-uppercase fw-6 fs-20"
+                  >
+                    Services
+                  </a>
                 </li>
-                <li className="nav-item">
-                  <Link to="/" className="nav-link text-white 
-                     ls-1 text-uppercase fw-6 fs-20">Works</Link>
+                <li className="custom-nav-item">
+                  <a
+                    href="#work"
+                    className="custom-nav-link text-white 
+                     ls-1 text-uppercase fw-6 fs-20"
+                  >
+                    Works
+                  </a>
                 </li>
-                <li className="nav-item">
-                  <Link to="/" className="nav-link text-white 
-                     ls-1 text-uppercase fw-6 fs-20">About me</Link>
+                <li className="custom-nav-item">
+                  <a
+                    href="#about"
+                    className="custom-nav-link text-white 
+                     ls-1 text-uppercase fw-6 fs-20"
+                  >
+                    About me
+                  </a>
                 </li>
-                <li className="nav-item">
-                  <Link to="/" className="nav-link text-white 
-                     ls-1 text-uppercase fw-6 fs-20">Contact</Link>
+                <li className="custom-nav-item">
+                  <a
+                    href="#contact"
+                    className="custom-nav-link text-white 
+                     ls-1 text-uppercase fw-6 fs-20"
+                  >
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>
@@ -56,7 +92,7 @@ function Navbar() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

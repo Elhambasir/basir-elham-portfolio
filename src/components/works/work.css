@@ -98,7 +98,39 @@
   cursor: pointer;
   padding: 1rem;
 }
-
+.card .card-body{
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif !important;
+  width: 30rem;
+  height: fit-content;
+}
+.popup-card-body {
+  width: 100% !important;
+}
+.popup-project-details{
+  font-family: 'Times New Roman', Times, serif !important;
+  color: gray;
+  width: 100%;
+}
+.card .card-body p.elipsis-detail{
+  font-family: 'Times New Roman', Times, serif !important;
+  color: grey;
+  white-space: nowrap; 
+  max-width: 250px; 
+  margin: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tag {
+  max-width:250px;
+  white-space: nowrap;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bg-tag-light-blue {
+  background-color: #EBEBFF;
+}
 @media screen and (min-width: 576px) {
   .image-box-content {
     left: 50%;

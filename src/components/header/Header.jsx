@@ -17,8 +17,8 @@ function header() {
             Living in <br /> Kabul, Afghanistan
           </h1>
           <div className="btn-groups flex mt-5">
-            <button type="button" className="btn-item bg-brown fw-4 ls-2"> See Works</button>
-            <button type="button" className="btn-item bg-dark fw-4 ls-2">Contact Me</button>
+            <button type="button" className="btn-item bg-brown fw-4 ls-2"><a href="#work">See Works</a></button>
+            <button type="button" className="btn-item bg-dark fw-4 ls-2"><a href="#contact">Contact Me</a></button>
           </div>
         </div>
       </div>

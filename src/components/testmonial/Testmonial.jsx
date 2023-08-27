@@ -50,7 +50,7 @@ export const Testmonial = () => {
               logos.map((logo, index) => {
                 return (
                   <div className="testmonial-logo-item" key={index}>
-                    <img src={logo.image} alt="no image" />
+                    <img src={logo.image} alt="not found" />
                   </div>
                 )
               })
