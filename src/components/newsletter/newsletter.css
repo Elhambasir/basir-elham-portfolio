@@ -1,0 +1,58 @@
+.newsletter{
+  background: linear-gradient(rgba(0,0,0,0.7),
+  rgba(0,0,0,0.7)),
+  url(https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  min-height: 65vh;
+}
+.newsletter-form {
+  max-width: 460px;
+}
+.newsletter-form input {
+  width: 100%;
+  height: 56px;
+  padding: 0 3rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  margin-bottom: 2.6rem;
+  border: 1px solid var(--white-color);
+  color:var(--white-color);
+  background: transparent;
+  font-weight: 200;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+}
+.newsletter-form input:focus {
+  outline: none;
+}
+.newsletter-form button {
+  width: 100%;
+  height: 56px;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  border: 2px solid var(--brown-color);
+  border-radius: 35px;
+  transition: var(--transition);
+  color: #fff;
+  cursor: pointer;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.newsletter-form button:hover {
+  background-color: transparent;
+  border-color: var(--brown-color);
+}

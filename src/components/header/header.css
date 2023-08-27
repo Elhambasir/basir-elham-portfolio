@@ -1,7 +1,7 @@
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6),
-   rgba(0, 0, 0, 0.4)), url(../../assets/images/header-background-image.jpg) center/cover fixed no-repeat;
+   rgba(0, 0, 0, 0.4)), url(../../assets/images/headerBackgroundImage.jpg) center/cover fixed no-repeat;
 }
 
 .header > .container {

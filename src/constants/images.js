@@ -4,9 +4,7 @@ import w3 from '../assets/images/w3.jpg';
 import w4 from '../assets/images/w4.jpg';
 import w5 from '../assets/images/w5.jpg';
 import elhamLogoBlue from '../assets/images/elhamLogoBlue.png';
-
-export const elhamLogoBlueColor = elhamLogoBlue;
-
+import headerBackgroundImage from '../assets/images/headerBackgroundImage.jpg';
 export const images = {
   w1,
   w2,
@@ -14,4 +12,5 @@ export const images = {
   w4,
   w5,
   elhamLogoBlue,
+  headerBackgroundImage
 };

@@ -44,6 +44,9 @@ const Newsletter = () => {
                 onChange={handleChange}
                 id="email" />
             </div>
+            <button type="submit" 
+            className="bg-brown text-white submit-btn 
+            fw-3 fs-22">Submit</button>
           </form>
         </div>
       </div>

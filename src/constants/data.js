@@ -106,16 +106,6 @@ const aboutStats = [
     title: 'Years Experience',
     number: '103',
     images: 'no images'
-  },
-  {
-    title: 'Cups of Coffee',
-    number: '104',
-    images: 'no images'
-  },
-  {
-    title: 'Working Hours',
-    number: '105',
-    images: 'no images'
   }
 ];
 
