@@ -43,7 +43,8 @@ const works = [
     image: images.mathMagecian,
     title: 'MATH MAGICIAN',
     description: 'Math magician is a simple app that allows users to culculate simple math problems. It is build with HTML, CSS, JavaScript, bootstrap and react.',
-    link: 'https://elhambasir-math-magician.onrender.com/',
+    liveLink: 'https://elhambasir-math-magician.onrender.com/',
+    sourceLink: 'https://github.com/Elhambasir/math-magician',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React']
   },
   {
@@ -51,7 +52,8 @@ const works = [
     image: images.conferance,
     title: 'conferance',
     description: 'Star\'s Website is a website which allow users to showcase all information about their courses. It is created according to javascript capston project but the contents are from Star Education Society. For now just about and home page are completed but the complete version will be pushed next time.',
-    link: 'https://elhambasir.github.io/capstone-project1--conference-page/',
+    liveLink: 'https://elhambasir.github.io/capstone-project1--conference-page/',
+    sourceLink: 'https://github.com/Elhambasir/capstone-project1--conference-page',
     technologies: ['HTML', 'CSS', 'JavaScript']
   },
   {
@@ -59,8 +61,18 @@ const works = [
     image: images.recipe,
     title: 'Recipe',
     description: 'Recipes App keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
-    link: 'https://elhambasir.github.io/capstone-project1--conference-page/',
+    liveLink: '#',
+    sourceLink: 'https://github.com/Elhambasir/recepies-app',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Ruby on Rails', 'PostgreSQL', 'Bootstrap', 'Rspec', 'Capybara']
+  },
+  {
+    id: 3,
+    image: images.portfolio,
+    title: 'Portfolio',
+    description: 'Portfolio website is one of the most powerful tools in software developer toolbox; it’s the easiest way of showing what you’re truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what you can bring to their teams.',
+    liveLink: 'https://elhambasir.github.io/MyPortfolio/',
+    sourceLink: 'https://github.com/Elhambasir/MyPortfolio',
+    technologies: ['HTML', 'CSS', 'JavaScript']
   }
 ];
 

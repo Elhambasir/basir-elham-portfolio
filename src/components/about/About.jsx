@@ -63,7 +63,7 @@ const About = () => {
                 </a>
               </li>
             </ul>
-            <button type="button" className="btn bg-brown text-light mb-2 mt-2">
+            <button type="button" className="btn bg-dark text-light mb-2 mt-2">
               GET MY RESUME
             </button>
           </div>
@@ -72,10 +72,10 @@ const About = () => {
               class="accordion accordion-flush border"
               id="accordionFlushExample"
             >
-              <div class="accordion-item bg-light">
+              <div class="accordion-item bg-grey">
                 <h2 class="accordion-header" id="flush-headingOne">
                   <button
-                    class="accordion-button collapsed fw-bold bg-light fs-5 text-dark"
+                    class="accordion-button collapsed fw-bold bg-grey fs-5 text-dark"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseOne"
@@ -92,7 +92,7 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <ul class="list list-group-numbered">
+                    <ul class="list">
                       <li class="border-bottom">html</li>
                       <li class="border-bottom">css</li>
                       <li class="border-bottom">javascript</li>
@@ -102,10 +102,10 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div class="accordion-item bg-light">
+              <div class="accordion-item bg-grey">
                 <h2 class="accordion-header" id="flush-headingTwo">
                   <button
-                    class="accordion-button collapsed fw-bold bg-light fs-5 text-dark"
+                    class="accordion-button collapsed fw-bold bg-grey fs-5 text-dark"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseTwo"
@@ -117,12 +117,12 @@ const About = () => {
                 </h2>
                 <div
                   id="flush-collapseTwo"
-                  class="accordion-collapse collapse"
+                  class="accordion-collapse collapse "
                   aria-labelledby="flush-headingTwo"
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <ul class="list list-group-numbered">
+                    <ul class="list">
                       <li class="border-bottom">Ruby on Rails</li>
                       <li class="border-bottom">Bootstrap</li>
                       <li class="border-bottom">JQuery</li>
@@ -132,10 +132,10 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div class="accordion-item bg-light">
+              <div class="accordion-item bg-grey">
                 <h2 class="accordion-header" id="flush-headingThree">
                   <button
-                    class="accordion-button collapsed fw-bold bg-light fs-5 text-dark"
+                    class="accordion-button collapsed fw-bold bg-grey fs-5 text-dark"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseThree"
@@ -152,7 +152,7 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <ul class="list list-group-numbered">
+                    <ul class="list">
                       <li class="border-bottom">GitHub</li>
                       <li class="border-bottom">Git</li>
                       <li class="border-bottom">API</li>

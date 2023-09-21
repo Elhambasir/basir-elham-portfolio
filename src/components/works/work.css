@@ -109,8 +109,10 @@
 }
 .popup-project-details{
   font-family: 'Times New Roman', Times, serif !important;
-  color: gray;
+  color: rgba(52, 52, 65, 0.904);
   width: 100%;
+  line-height: 1.6;
+  min-height: 0vw;
 }
 .card .card-body p.elipsis-detail{
   font-family: 'Times New Roman', Times, serif !important;

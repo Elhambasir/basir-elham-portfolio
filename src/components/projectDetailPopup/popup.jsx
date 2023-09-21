@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { BsGithub } from "react-icons/bs";
+// import { BsGithub } from "react-icons/bs";
 import { RiLiveFill } from "react-icons/ri";
 import { ProjectDetail } from "../projectDetailSlider/projectDetailSlider";
 
 const Popup = (props) => {
-  const { title, description, technologies } = props;
+  const { title, description, technologies, liveLink, sourceLink } = props;
   return (
     <div
       class="modal fade bg-dark"
@@ -16,12 +16,9 @@ const Popup = (props) => {
       aria-labelledby="staticBackdropLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header border-0">
-            <h1 class="modal-title text-uppercase" id="staticBackdropLabel">
-              {title}
-            </h1>
             <button
               type="button"
               class="btn-close"
@@ -34,7 +31,7 @@ const Popup = (props) => {
               <div className="card border-0">
                 <ProjectDetail {...props} />
                 <div className="card-body popup-card-body">
-                  <h4 className="card-title">PROJECT DETAILS</h4>
+                  <h4 className="card-title">{title}</h4>
                   <p className="lh-1 popup-project-details">{description}</p>
                 </div>
                 <ul className="d-flex flex-wrap justify-content-start gap-3">
@@ -54,18 +51,12 @@ const Popup = (props) => {
             </div>
           </div>
           <div class="modal-footer justify-content-start">
-            <button type="button" class="btn bg-brown text-light btn-lg">
-              <a href="https://elhambasir.github.io/capstone-project1--conference-page/">
+              <a  class="btn bg-dark text-light btn-lg" href={ liveLink }>
                 SEE LIVE
               </a>{" "}
-              <RiLiveFill />
-            </button>
-            <button type="button" class="btn bg-brown text-light btn-lg">
-              <a href="https://github.com/Elhambasir/capstone-project1--conference-page">
+              <a  class="btn bg-dark text-light btn-lg" href={ sourceLink }>
                 SEE RECOURCE
               </a>{" "}
-              <BsGithub />
-            </button>
           </div>
         </div>
       </div>

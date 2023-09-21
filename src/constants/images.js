@@ -1,15 +1,13 @@
-import w4 from '../assets/images/w4.jpg';
-import elham from '../assets/images/elham.PNG';
-import conferanceHome from '../assets/images/conferance/home.PNG';
-import conferanceAbout from '../assets/images/conferance/about.PNG';
-import conferanceMainProgram from '../assets/images/conferance/mainProgram.PNG';
-import recipeDetail from '../assets/images/recipe/recipe.PNG';
-import recipeShoppingList from '../assets/images/recipe/shoppingList.PNG';
-import mathMagecian from '../assets/images/mathMagecian/mathMagicianApp.PNG';
+import conferanceHome from '../assets/images/conferance/star.png';
+import recipeFood from '../assets/images/recipe/food.png';
+import recipeShoppingList from '../assets/images/recipe/shopping.png';
+import recipeIngrediant from '../assets/images/recipe/ingrediant.png';
+import recipe from '../assets/images/recipe/reciepe.png';
+import mathMagecian from '../assets/images/mathMagecian/mathMagicianApp.png';
+import portfolio from '../assets/images/portfolio/portfolio.png'
 export const images = {
-  conferance:[conferanceHome,conferanceAbout,conferanceMainProgram],
-  recipe:[recipeDetail,recipeShoppingList],
+  conferance:[conferanceHome],
+  recipe:[recipeFood,recipeShoppingList,recipeIngrediant,recipe],
   mathMagecian:[mathMagecian],
-  elham,
-  w4
+  portfolio: [portfolio]
 };

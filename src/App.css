@@ -801,8 +801,8 @@ a {
 }
 
 .btn-groups .btn-item:hover {
-  background-color: transparent;
   border-color: var(--white-color) !important;
+  color:white;
 }
 
 /* // animation and transition */

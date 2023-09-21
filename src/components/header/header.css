@@ -1,7 +1,7 @@
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6),
-  rgba(0, 0, 0, 0.4)), url(../../assets/images/headerBackgroundImage.jpg) center/cover fixed no-repeat;
+  rgba(0, 0, 0, 0.4)), url(https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.webp?b=1&s=170667a&w=0&k=20&c=ymHzOpQBTrldJ5egITZZAgfc7PGmxZ2bP83eo-KjARM=) center/cover fixed no-repeat;
 }
 
 .header > .container {
@@ -18,6 +18,16 @@
   max-width: 600px;
 }
 
+.header .btn-groups {
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+.header .btn-groups .btn-item {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
 .header .btn-groups .btn-item:first-child {
   border-color: var(--brown-color);
 }
@@ -34,6 +44,13 @@
   .header .btn-groups .btn-item {
     font-size: 2.2rem;
     padding: 1.4rem 3.4rem;
+  }
+
+  .header .btn-groups {
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
   }
 }
 
