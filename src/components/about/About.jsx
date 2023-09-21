@@ -11,6 +11,7 @@ import { MdEmail } from "react-icons/md";
 import { ImHtmlFive } from "react-icons/im";
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
+import { images } from "../../constants/images";
 const About = () => {
   return (
     <div className="about section-p bg-grey" id="about">
@@ -63,9 +64,9 @@ const About = () => {
                 </a>
               </li>
             </ul>
-            <button type="button" className="btn bg-dark text-light mb-2 mt-2">
+            <a href={images.myCv} className="btn bg-dark text-light mb-2 mt-2" download>
               GET MY RESUME
-            </button>
+            </a>
           </div>
           <div className="col-lg-4 mt-2">
             <div
