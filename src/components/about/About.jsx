@@ -20,19 +20,12 @@ const About = () => {
           <div className="col-lg-8">
             <h1>About Us</h1>
             <p>
-              I am a full-stack development student currently enrolled in
-              Microverse, a remote software development school that uses pair
-              programming and real-world projects to teach development. I am
-              passionate about learning new technologies and building innovative
-              applications. I am also a strong communicator and team player. During 
-              passed 6 months I was practicing as a software engineer at Microverse, I worked on a
-              variety of projects, including building developing a new mobile, web application,
-              doctor appointment website etc... I also have experience
-              with a variety of programming languages, including JavaScript, Ruby,
-              and Ruby on Rails. I am excited to continue my education at
-              Microverse and learn the skills I need to become a successful
-              full-stack developer. I am confident that I can contribute to your
-              team and help you achieve your goals.
+            Hello, my name is Basir Elham, and I am a Full-stack developer proficient in HTML, CSS, Bootstrap, JavaScript, 
+            React, Redux, and Ruby on Rails. Previously, I was studying computer science at the University in Afghanistan. 
+            After I graduated from university, I started my journey at Microverse.
+            I am currently pair-programming with remote professionals from all over the world through the Microverse program. I recently built a website for a local clinic where patients can view the list of doctors with their details and where patients can make a reservation for their needs.
+            I enjoy building beautiful websites with efficient features. 
+            I believe these kinds of websites will bring the audience wherever we want.
             </p>
             <a href="https://www.linkedin.com/in/basirelhamahmadi" className="nav-link">
               LET'S CONNECT
@@ -59,7 +52,7 @@ const About = () => {
                 </a>
               </li>
               <li className="fs-2">
-                <a href="elham1378basir@gmail.com">
+                <a href="#elham1378basir@gmail.com">
                   <MdEmail />
                 </a>
               </li>
@@ -93,12 +86,12 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <ul class="list">
-                      <li class="border-bottom">html</li>
-                      <li class="border-bottom">css</li>
-                      <li class="border-bottom">javascript</li>
-                      <li class="border-bottom">ruby</li>
-                      <li class="border-bottom">C#</li>
+                    <ul class="list d-flex justify-content-start flex-wrap">
+                      <li class="border-bottom me-3">HTML</li>
+                      <li class="border-bottom me-3">CSS</li>
+                      <li class="border-bottom me-3">Javascript</li>
+                      <li class="border-bottom me-3">Ruby</li>
+                      <li class="border-bottom me-3">C#</li>
                     </ul>
                   </div>
                 </div>
@@ -123,12 +116,12 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <ul class="list">
-                      <li class="border-bottom">Ruby on Rails</li>
-                      <li class="border-bottom">Bootstrap</li>
-                      <li class="border-bottom">JQuery</li>
-                      <li class="border-bottom">React</li>
-                      <li class="border-bottom">Redux</li>
+                    <ul class="list d-flex justify-content-start flex-wrap">
+                      <li class="border-bottom me-3">Ruby on Rails</li>
+                      <li class="border-bottom me-3">Bootstrap</li>
+                      <li class="border-bottom me-3">JQuery</li>
+                      <li class="border-bottom me-3">React</li>
+                      <li class="border-bottom me-3">Redux</li>
                     </ul>
                   </div>
                 </div>
@@ -153,12 +146,13 @@ const About = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    <ul class="list">
-                      <li class="border-bottom">GitHub</li>
-                      <li class="border-bottom">Git</li>
-                      <li class="border-bottom">API</li>
-                      <li class="border-bottom">Rspec</li>
-                      <li class="border-bottom">Jest</li>
+                    <ul class="list d-flex justify-content-start flex-wrap">
+                      <li class="border-bottom me-4">GitHub</li>
+                      <li class="border-bottom me-4">Git</li>
+                      <li class="border-bottom me-4">API</li>
+                      <li class="border-bottom me-4">Rspec</li>
+                      <li class="border-bottom me-4">Rspec</li>
+                      <li class="border-bottom me-4">Jest</li>
                     </ul>
                   </div>
                 </div>

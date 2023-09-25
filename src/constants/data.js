@@ -42,7 +42,7 @@ const works = [
     id: 1,
     image: images.mathMagecian,
     title: 'MATH MAGICIAN',
-    description: 'Math magician is a simple app that allows users to culculate simple math problems. It is build with HTML, CSS, JavaScript, bootstrap and react.',
+    description: 'Math magician is a simple app that allows users to culculate simple math problems. It is created using HTML, CSS, JavaScript, Bootstrap and React.',
     liveLink: 'https://elhambasir-math-magician.onrender.com/',
     sourceLink: 'https://github.com/Elhambasir/math-magician',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React']
@@ -51,7 +51,7 @@ const works = [
     id: 2,
     image: images.conferance,
     title: 'conferance',
-    description: 'Star\'s Website is a website which allow users to showcase all information about their courses. It is created according to javascript capston project but the contents are from Star Education Society. For now just about and home page are completed but the complete version will be pushed next time.',
+    description: 'Star\'s Website is a website which allows users to showcase all information about their courses. It is created according to javascript capston project but the contents are from Star Education Society. For now just about and home page are completed but the complete version will be pushed next time.',
     liveLink: 'https://elhambasir.github.io/capstone-project1--conference-page/',
     sourceLink: 'https://github.com/Elhambasir/capstone-project1--conference-page',
     technologies: ['HTML', 'CSS', 'JavaScript']
@@ -66,7 +66,7 @@ const works = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Ruby on Rails', 'PostgreSQL', 'Bootstrap', 'Rspec', 'Capybara']
   },
   {
-    id: 3,
+    id: 4,
     image: images.portfolio,
     title: 'Portfolio',
     description: 'Portfolio website is one of the most powerful tools in software developer toolbox; it’s the easiest way of showing what you’re truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what you can bring to their teams.',
