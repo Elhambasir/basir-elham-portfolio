@@ -1,7 +1,7 @@
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6),
-  rgba(0, 0, 0, 0.4)), url(https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.webp?b=1&s=170667a&w=0&k=20&c=ymHzOpQBTrldJ5egITZZAgfc7PGmxZ2bP83eo-KjARM=) center/cover fixed no-repeat;
+  rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1621513376775-9501b83c5ab2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVhZGVyJTIwaW1hZ2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60) center/cover fixed no-repeat;
 }
 
 .header > .container {
