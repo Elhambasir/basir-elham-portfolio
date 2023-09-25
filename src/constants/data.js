@@ -50,7 +50,7 @@ const works = [
   {
     id: 2,
     image: images.conferance,
-    title: 'conferance',
+    title: 'conference',
     description: 'Star\'s Website is a website which allows users to showcase all information about their courses. It is created according to javascript capston project but the contents are from Star Education Society. For now just about and home page are completed but the complete version will be pushed next time.',
     liveLink: 'https://elhambasir.github.io/capstone-project1--conference-page/',
     sourceLink: 'https://github.com/Elhambasir/capstone-project1--conference-page',

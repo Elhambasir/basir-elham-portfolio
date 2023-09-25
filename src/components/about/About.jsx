@@ -27,32 +27,32 @@ const About = () => {
             I enjoy building beautiful websites with efficient features. 
             I believe these kinds of websites will bring the audience wherever we want.
             </p>
-            <a href="https://www.linkedin.com/in/basirelhamahmadi" className="nav-link">
+            <a href="https://www.linkedin.com/in/basirelhamahmadi" className="nav-link" target= "_blank">
               LET'S CONNECT
             </a>
             <ul className="list-group d-flex flex-row gap-3">
               <li className="fs-2">
-                <a href="https://www.facebook.com/basir.muhammadi.3">
+                <a href="https://www.facebook.com/basir.muhammadi.3" target= "_blank">
                   <AiFillFacebook />
                 </a>
               </li>
               <li className="fs-2">
-                <a href="https://instagram.com/basir.muhammadi.3?igshid=ZDdkNTZiNTM=">
+                <a href="https://instagram.com/basir.muhammadi.3?igshid=ZDdkNTZiNTM=" target= "_blank">
                   <AiFillInstagram />
                 </a>
               </li>
               <li className="fs-2">
-                <a href="https://linkedin.com/in/basirelhamahmadi">
+                <a href="https://linkedin.com/in/basirelhamahmadi" target= "_blank">
                   <AiFillLinkedin />
                 </a>
               </li>
               <li className="fs-2">
-                <a href="https://github.com/Elhambasir">
+                <a href="https://github.com/Elhambasir" target= "_blank">
                   <AiFillGithub />
                 </a>
               </li>
               <li className="fs-2">
-                <a href="#elham1378basir@gmail.com">
+                <a href="mailto:elham1378basir@gmail.com" target= "_blank">
                   <MdEmail />
                 </a>
               </li>

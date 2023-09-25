@@ -10,7 +10,7 @@ function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a className="navbar-brand" href="#about">
+        <a className="navbar-brand" href="#header">
           <img src={etech} alt="etech" width={50} id="logo" />
         </a>
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">

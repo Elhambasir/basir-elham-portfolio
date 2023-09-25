@@ -51,10 +51,10 @@ const Popup = (props) => {
             </div>
           </div>
           <div class="modal-footer justify-content-start">
-              <a  class="btn bg-dark text-light btn-lg" href={ liveLink }>
+              <a  class="btn bg-dark text-light btn-lg" href={ liveLink } target= "_blank">
                 SEE LIVE
               </a>{" "}
-              <a  class="btn bg-dark text-light btn-lg" href={ sourceLink }>
+              <a  class="btn bg-dark text-light btn-lg" href={ sourceLink } target= "_blank">
                 SEE RECOURCE
               </a>{" "}
           </div>
