@@ -91,7 +91,6 @@ const About = () => {
                       <li class="border-bottom me-3">CSS</li>
                       <li class="border-bottom me-3">Javascript</li>
                       <li class="border-bottom me-3">Ruby</li>
-                      <li class="border-bottom me-3">C#</li>
                     </ul>
                   </div>
                 </div>
@@ -150,7 +149,6 @@ const About = () => {
                       <li class="border-bottom me-4">GitHub</li>
                       <li class="border-bottom me-4">Git</li>
                       <li class="border-bottom me-4">API</li>
-                      <li class="border-bottom me-4">Rspec</li>
                       <li class="border-bottom me-4">Rspec</li>
                       <li class="border-bottom me-4">Jest</li>
                     </ul>
