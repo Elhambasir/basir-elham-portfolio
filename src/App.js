@@ -8,7 +8,7 @@ import Newsletter from './components/newsletter/Newsletter';
 import About from './components/about/About';
 import ReactGA from 'react-ga';
 
-const trackingId = "UA-293676977-1"; // Replace with your Google Analytics tracking ID
+const trackingId = "UA-293676977-2"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 function App() {
   return (
