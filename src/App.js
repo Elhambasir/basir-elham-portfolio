@@ -6,6 +6,10 @@ import { Work } from './components/works/Work';
 import { WorkProcess } from './components/workProcess/WorkProcess';
 import Newsletter from './components/newsletter/Newsletter';
 import About from './components/about/About';
+import ReactGA from 'react-ga';
+
+const trackingId = "UA-293676977-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
 function App() {
   return (
     <div className="App">

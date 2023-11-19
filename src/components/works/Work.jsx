@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { works } from "../../constants/data";
 import { BsPlusLg } from "react-icons/bs";
+import ReactGA from 'react-ga';
 import Popup from "../projectDetailPopup/popup";
 import "./work.css";
 
 export const Work = () => {
   const [projectDetails, setProjectDetails] = React.useState({});
-
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, [])
   const handleShowImage = (data) => {
+    ReactGA.event({
+      category: projectDetails.title,
+      action: 'Clicked on project image',
+      label: 'Project Image'
+    });
+
     setProjectDetails(data);
   };
   return (

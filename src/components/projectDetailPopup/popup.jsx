@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { BsGithub } from "react-icons/bs";
+import ReactGA from "react-ga";
 import { RiLiveFill } from "react-icons/ri";
 import { ProjectDetail } from "../projectDetailSlider/projectDetailSlider";
 
