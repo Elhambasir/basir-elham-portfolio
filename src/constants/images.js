@@ -3,14 +3,15 @@ import mathMagecian from '../assets/images/mathMagecian/culc.png';
 import portfolio from '../assets/images/portfolio/portfolio1.png';
 import myCv from '../assets/images/elham_cv_v5.pdf'
 import recipe from '../assets/images/recipe/recipe.png';
-import lp from '../assets/images/landingPage/l5.png';
-import codeAlpha from '../assets/images/codeAlpha/recipe_web.png';
+import lp1 from '../assets/images/landingPage/l1.png';
+import lp2 from '../assets/images/landingPage/l2.png';
+import codeAlpha from '../assets/images/codeAlpha/rb.png';
 export const images = {
   conferance:[conferanceHome],
   mathMagecian:[mathMagecian],
   portfolio: [portfolio],
   recipe: [recipe],
   myCv: myCv,
-  lp: [lp],
+  lp: [lp1,lp2],
   codeAlpha: [codeAlpha]
 };
