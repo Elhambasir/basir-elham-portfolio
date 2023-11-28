@@ -49,12 +49,12 @@ const works = [
   },
   {
     id: 2,
-    image: images.mathMagecian,
-    title: 'MATH MAGICIAN',
-    description: 'Math magician is a simple app that allows users to culculate simple math problems. It is created using HTML, CSS, JavaScript, Bootstrap and React.',
-    liveLink: 'https://elhambasir-math-magician.onrender.com/',
-    sourceLink: 'https://github.com/Elhambasir/math-magician',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React']
+    image: images.codeAlpha,
+    title: 'Recipe Book (Code Alpha Internship)',
+    description: 'Recipe Book is a web application that allows users to store, manage, and share recipes. I developed this project during my internship at Code Alpha as a front-end developer. It is built using a combination of HTML, CSS, JavaScript, and Bootstrap. I diligently worked on this project throughout November, aiming to meet the deadline of December 5th.',
+    liveLink: 'https://elhambasir.github.io/code-alpha-recipe-book/',
+    sourceLink: 'https://github.com/Elhambasir/code-alpha-recipe-book',
+    technologies: ['HTML', 'CSS', 'JavaScript','Bootstrap']
   },
   {
     id: 3,
@@ -82,6 +82,15 @@ const works = [
     liveLink: 'https://elhambasir.github.io/MyPortfolio/',
     sourceLink: 'https://github.com/Elhambasir/MyPortfolio',
     technologies: ['HTML', 'CSS', 'JavaScript']
+  },
+  {
+    id: 6,
+    image: images.mathMagecian,
+    title: 'MATH MAGICIAN',
+    description: 'Math magician is a simple app that allows users to culculate simple math problems. It is created using HTML, CSS, JavaScript, Bootstrap and React.',
+    liveLink: 'https://elhambasir-math-magician.onrender.com/',
+    sourceLink: 'https://github.com/Elhambasir/math-magician',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React']
   }
 ];
 
