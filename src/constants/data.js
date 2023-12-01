@@ -40,6 +40,15 @@ const services = [
 const works = [
   {
     id: 1,
+    image: images.reactTodo,
+    title: 'React Todo App',
+    description: 'This project is a simple React Todo app that utilizes Tailwind CSS for styling. It allows users to add, edit, and remove tasks.',
+    liveLink: 'https://smart-bazar-todo-app.onrender.com/',
+    sourceLink: 'https://github.com/Elhambasir/react-todo-list',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS']
+  },
+  {
+    id: 2,
     image: images.lp,
     title: 'Modern Landing Page',
     description: 'This modern landing page is a simple website that allows users to showcase their medical services, team, working hours, most asked question, testimonials, and contact information. It is created using HTML, CSS, JavaScript, and Tailwind CSS.',
@@ -48,7 +57,7 @@ const works = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS']
   },
   {
-    id: 2,
+    id: 3,
     image: images.codeAlpha,
     title: 'Recipe Book (Code Alpha Internship)',
     description: 'Recipe Book is a web application that allows users to store, manage, and share recipes. I developed this project during my internship at Code Alpha as a front-end developer. It is built using a combination of HTML, CSS, JavaScript, and Bootstrap. I diligently worked on this project throughout November, aiming to meet the deadline of December 5th.',
@@ -57,7 +66,7 @@ const works = [
     technologies: ['HTML', 'CSS', 'JavaScript','Bootstrap']
   },
   {
-    id: 3,
+    id: 4,
     image: images.conferance,
     title: 'conference',
     description: 'Star\'s Website is a website which allows users to showcase all information about their courses. It is created according to javascript capston project but the contents are from Star Education Society. For now just about and home page are completed but the complete version will be pushed next time.',
@@ -66,7 +75,7 @@ const works = [
     technologies: ['HTML', 'CSS', 'JavaScript']
   },
   {
-    id: 4,
+    id: 5,
     image: images.recipe,
     title: 'Recipe',
     description: 'Recipes App keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
@@ -75,7 +84,7 @@ const works = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Ruby on Rails', 'PostgreSQL', 'Bootstrap', 'Rspec', 'Capybara']
   },
   {
-    id: 5,
+    id: 6,
     image: images.portfolio,
     title: 'Portfolio',
     description: 'Portfolio website is one of the most powerful tools in software developer toolbox; it’s the easiest way of showing what you’re truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what you can bring to their teams.',
@@ -84,7 +93,7 @@ const works = [
     technologies: ['HTML', 'CSS', 'JavaScript']
   },
   {
-    id: 6,
+    id: 7,
     image: images.mathMagecian,
     title: 'MATH MAGICIAN',
     description: 'Math magician is a simple app that allows users to culculate simple math problems. It is created using HTML, CSS, JavaScript, Bootstrap and React.',
